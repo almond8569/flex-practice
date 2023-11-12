@@ -1,0 +1,184 @@
+body {
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+    color:aliceblue;
+    display: flex;
+}
+
+.hero {
+    flex-direction: column;
+    padding: 20px 200px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.main-text {
+   flex-direction: column;
+   font-size: 48px;
+}
+
+.main img {
+    width: 500px;
+    height: 250px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-montage {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.scene {
+    max-width: 300px;
+    text-align: center;
+}
+
+.scene img {
+    width: 250px;
+    height: 300px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    margin-bottom: 48px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    align-self: flex-end;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.register-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.quotation {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.attribution {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    color:aliceblue;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.info, .quotation, .register {
+    flex: 1;
+}
+.container-montage, .quote-container, .box {
+    flex: 1
+}
+
+.info, .quotation, .register {
+    padding: 150px 200px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.register-heading {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.secondary-text, .caption, .footer {
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 24px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.register button {
+    border-color: white;
+}
+
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
